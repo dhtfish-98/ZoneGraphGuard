@@ -1,0 +1,203 @@
+{
+  "project": "ZoneGraphGuard",
+  "status": "PASS_FULL_SELECTED_NEW_SOURCE_REVIEW",
+  "new_full_reviewed_files": [
+    {
+      "path": "src/zone_graph_guard/__init__.py",
+      "sha256": "50d7a123a8fb98d498c01a13b3eae609a1e60d2e06d32c54ec2c4ab315c62172",
+      "bytes": 208,
+      "lines": 7,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone_graph_guard/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48,
+      "lines": 3,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone_graph_guard/cli.py",
+      "sha256": "543d65477803253c421862c834c7041a795ab66ed0bfdbff5ba0e3aaa600ac90",
+      "bytes": 1236,
+      "lines": 25,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone_graph_guard/contracts.py",
+      "sha256": "1ea87a7124e12217f18631195bc3de459d213b847e3d5e94802e5d8d8511e472",
+      "bytes": 3378,
+      "lines": 100,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone_graph_guard/files.py",
+      "sha256": "83047af689ff24cf3fb6dd27eb6dafef623572cb6e64068dff9111d965268d1e",
+      "bytes": 3252,
+      "lines": 84,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone_graph_guard/lexer.py",
+      "sha256": "38cf30a8baaca5f9015f3b0e487ace8d7c723151a1356c1b86e79f0a93479de4",
+      "bytes": 4036,
+      "lines": 122,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone_graph_guard/manifest.py",
+      "sha256": "db06cdc78c4214c10b14590ebfb655f688a89a376b229cf4c7e1ec5debc9a619",
+      "bytes": 3933,
+      "lines": 93,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone_graph_guard/model.py",
+      "sha256": "e69cbf7b8ed02311ade588c559edaf9a72310b6a051601fa491eeb6c86f4394c",
+      "bytes": 16225,
+      "lines": 320,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone_graph_guard/names.py",
+      "sha256": "9b50c7da7213a9f606c0fffb6dd84e55599ee04b224c141fcb0ccb7236223f85",
+      "bytes": 2604,
+      "lines": 81,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone_graph_guard/parser.py",
+      "sha256": "2dd1701ec412573486efab87b00a2e2deadbe9ec8289a4909a086d702a1b2e82",
+      "bytes": 7167,
+      "lines": 173,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone_graph_guard/review.py",
+      "sha256": "b7194598a98c15d33c20240e7d2156bd559b43b6110ef95486a8481d1e9b7ea4",
+      "bytes": 2183,
+      "lines": 51,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "48f12d6e802cbec8bcafe3643b18ced263fb81821316036b540a36dd1eaf58e4",
+      "bytes": 31484,
+      "lines": 608,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "README.md",
+      "sha256": "37879d373570bc34e5cc26605c86a40558db4f44479fed75a6cf4547f238181a",
+      "bytes": 5615,
+      "lines": 50,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "2012b3f69edab3d1c17641f006ebf98cb49be748fd060406c6924368ebda044d",
+      "bytes": 2757,
+      "lines": 11,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "8c709b03c41962fa519b5f0b803ff61cea8801da828ac45694e89386654d6a91",
+      "bytes": 5292,
+      "lines": 19,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "fc62e1c741c4a9df682c4d3ac74cf1e83a9d1aee9288a8691e392346c81ac3fd",
+      "bytes": 1759,
+      "lines": 9,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cf465b6937308e39a02b4dc81ae1f6ab051e392d5c74be9c1064a5d9117673dc",
+      "bytes": 1067,
+      "lines": 21,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "b8a71f2326feec71c36566a0b2aa0b01752960ed26043d19fcbd7c81a8b4c0fc",
+      "bytes": 667,
+      "lines": 9,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "licenses/GRoot-MIT.txt",
+      "sha256": "28a5c3a0938d1b763b48e5c75e69f1e6a7b1212ad7e16af4dffccc738e6a5cca",
+      "bytes": 1067,
+      "lines": 22,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "a9c93024c687b099fb56ee62d6576c06a2a5eb5dadc7e50501b707f3e7109690",
+      "bytes": 634,
+      "lines": 21,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "requirements-build.txt",
+      "sha256": "206d502f592f43b6cb1a0ec971e5e4e38be6d186550c3958ee3d0fc5632c445b",
+      "bytes": 85,
+      "lines": 5,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "5e7b5166b43a43e78038993958909f4f252b54321c91ad41aa9c0abdc622eb1f",
+      "bytes": 252,
+      "lines": 5,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "bb5832ba165615ffd69f59af6f9c5a14e4fee68198cbff929849cba2b3479291",
+      "bytes": 70,
+      "lines": 7,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "f72a8da1f39d35d5a67778b07345296d6e32a2378a62660fdd30adfe7365b0bc",
+      "bytes": 690,
+      "lines": 21,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "evidence/scope-gate.json",
+      "sha256": "936dc9a45a5af8d68c0d511f2eaf49b8299933262ee73c7f3d46a20501b89fd2",
+      "bytes": 12061,
+      "lines": 360,
+      "read_scope": "ENTIRE_FILE"
+    }
+  ],
+  "new_full_review_file_count": 25,
+  "runtime_file_count": 11,
+  "runtime_lines": 1059,
+  "test_methods": 66,
+  "test_scope": "Entire tests/test_review.py, all test methods and helpers",
+  "additional_verification_helper": {
+    "path": ".verification/consumer_check.py",
+    "sha256": "25225ad7da9019decfc7de35b240debedd876a4fc2122aa89b18282a243c8860",
+    "read_scope": "ENTIRE_FILE",
+    "runtime_bundled": false
+  },
+  "upstream_scope_gate": "evidence/scope-gate.json",
+  "scope": "All new runtime/tests/package/CI/docs/licenses and selected upstream entire32 files; stdlib implementation and full build tool implementations not reviewed",
+  "build_dependency_review": "Exact pinned metadata and complete installed dist-info top-level licenses; not the whole tooling implementation",
+  "independent_review_delta": {
+    "reported_by": "parent full-source independent reviewer",
+    "status": "RESOLVED",
+    "issue": "NS target CNAME check formerly restricted to parent cuts and read non-authoritative parent data",
+    "fix": "All NS records use reachable source/target authoritative snapshots; explicit CNAME witnesses FAIL; missing/external/incomplete/orphan/DNAME authority OPEN; parent glue/cache excluded",
+    "regressions": "seven new methods with valid/mutated apex and child, witness locations, parent cache, missing child, external, orphan, DNAME-owner/descendant, incomplete authority controls",
+    "reference": "RFC2181 section10.3 selected entirety read"
+  }
+}

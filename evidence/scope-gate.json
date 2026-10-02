@@ -1,0 +1,360 @@
+{
+  "status": "PASS_SCOPE_FIXED_BEFORE_RUNTIME",
+  "project": "ZoneGraphGuard",
+  "upstream": "dns-groot/groot",
+  "fixed_commit": "c6943a08596c6f308b381dd6a68c3b279cbd2edc",
+  "full_reviewed_files": [
+    {
+      "path": "src/context.h",
+      "bytes": 415,
+      "lines": 15,
+      "sha256": "ff71ab624b9bc1dac8c9d042a0b1369b4e1f3c6f3585865380fc523eedad6313",
+      "git_blob": "c5e099d659b2a57e622257a1f70123adacba7ea3",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/driver.cpp",
+      "bytes": 22300,
+      "lines": 485,
+      "sha256": "57cdbae10700054cc3414775a7d9ec8fb4cbb6696e96302083eea7ff72ede5af",
+      "git_blob": "fe4902fc8127192cfd44276c8c3c418cbe0d6096",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/driver.h",
+      "bytes": 908,
+      "lines": 41,
+      "sha256": "e74fc733efdd87e4a631dcb7b0540a8648f0f7a3c2a881b3d0579242f39b57ff",
+      "git_blob": "b9d29a2b0ed5eadce636f44c5883b36c30fe9366",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/ec-task.cpp",
+      "bytes": 838,
+      "lines": 21,
+      "sha256": "d86059d19342508f06b317c04c3fa59dba8e2ae4d1f3166fa40a671dfd7cf998",
+      "git_blob": "481a4e2bcad429c2c65f4a4ebb48d49215d7fac9",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/ec-task.h",
+      "bytes": 257,
+      "lines": 16,
+      "sha256": "3a7b88d4f07cb4e406a1b10205b85c3a62c29fefc7794951eb9da4eb01002823",
+      "git_blob": "fa8be328fe092c143fb51806912667fe78f7b4a3",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/equivalence-class.cpp",
+      "bytes": 538,
+      "lines": 31,
+      "sha256": "8df7392654740bee3bb71f70d5a96c32b45ba8d70c413b46662803912b5e2032",
+      "git_blob": "c4e51f64e36334a71f7d9f62cbd3a64ca50d723e",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/equivalence-class.h",
+      "bytes": 556,
+      "lines": 28,
+      "sha256": "73af2d53937eccc0d69e4bc463c20c209a7cc24a35d5c3d423d6bf5c584ea01f",
+      "git_blob": "d446e8e0879be3895d8924457d35706f0b5cd535",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/interpretation-graph.cpp",
+      "bytes": 25039,
+      "lines": 584,
+      "sha256": "656c6896169bbc03ba83ca01c6c906335772604c62236f0f147a4931401a15f3",
+      "git_blob": "5ad931b11e241e50c7abcf075602adf52fe3f6f8",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/interpretation-properties.h",
+      "bytes": 7354,
+      "lines": 206,
+      "sha256": "8fef64a27798cdc3913aa2333e8521a612b6df8b0e60d1ad7926dc706d55cc0b",
+      "git_blob": "85c49228b74e585ad6ef46d81806836e76de9950",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/job.h",
+      "bytes": 761,
+      "lines": 26,
+      "sha256": "1008c6f6a6a141173f101f92f6c7e26a365057019c0653a1c2f99ae990c483cc",
+      "git_blob": "16c194b582ba2529f5ee0abe333e4891e23b565b",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/label-graph.cpp",
+      "bytes": 26970,
+      "lines": 637,
+      "sha256": "1c5885a2f668a8b8bb52e33e8a2a1e4684b60d2c2b6687396eb9fbaa3a860679",
+      "git_blob": "1a1e4de637bd666fdd89f727a73fc21af4f2c4ac",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/label-graph.h",
+      "bytes": 4290,
+      "lines": 139,
+      "sha256": "879c6cf9cc13ef133d3d20989c5a39e077a4222111d6b47a0efe2d34dadc9566",
+      "git_blob": "eb1a1487b595bea4ac047314978a8d198bb5aa77",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/my-logger.h",
+      "bytes": 1418,
+      "lines": 77,
+      "sha256": "5ec2a167e3ea6d665bb8fee0c66c197851c10fb8ce2c3c1989e0149ab1585c39",
+      "git_blob": "03a6f385ff7e6107bc741804d7e525f351302e19",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/node-label.cpp",
+      "bytes": 414,
+      "lines": 22,
+      "sha256": "15c9e37b72f535449163a841987603a2bc933c5f0e66b5d94c3ac28c5ebfe479",
+      "git_blob": "f51bad866eec549d52e1d89130d94c66e29401f5",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/node-label.h",
+      "bytes": 1462,
+      "lines": 54,
+      "sha256": "b2cb4720907149e93bf9878a4474a24d0e192e9b4497c59cafd115c6975a9d5e",
+      "git_blob": "3b4577eec171c72578f4cd8327896fd3581c8409",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/properties.cpp",
+      "bytes": 29065,
+      "lines": 632,
+      "sha256": "63c56339433148bd328f43c652a9899dcb5854c495876f69c5e30ee16296130f",
+      "git_blob": "01a8f5eeac7f089e15c6834742bf5f1c4233e912",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/resource-record.cpp",
+      "bytes": 1573,
+      "lines": 75,
+      "sha256": "95871630962667e8cf43550226c4d5c152eb8eb62b4271b02a6ea2cc91f0db1a",
+      "git_blob": "8dbed6c42382e1bb40a7a110f7cd5cf65d64a225",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/resource-record.h",
+      "bytes": 1545,
+      "lines": 60,
+      "sha256": "01f2bc6aa6611aad5f8369e8e531bc6adeb4cd4509dd84c1f33840965baef7f3",
+      "git_blob": "97e424f2f2d2d8ca605de8ab1730559b6adda125",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/structural-task.cpp",
+      "bytes": 582,
+      "lines": 17,
+      "sha256": "3471e4060d6b7a8876a5d7a7f0d17904a70fd0bc1fa638154476c347d788f8ec",
+      "git_blob": "52355217e17008a3019d0229d5f4fdaa4e1cba1a",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/structural-task.h",
+      "bytes": 394,
+      "lines": 17,
+      "sha256": "04ce3b889f508dde62551e64cd8fb8042b96b659e6f6bfa4c6e3afca3f6c08ef",
+      "git_blob": "ee0700a075f6a5002fbb115cce19f7f86643377b",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/task.h",
+      "bytes": 226,
+      "lines": 14,
+      "sha256": "6c0ffad543f08a34c95305d24f91c02601cdd1e69f87469e380ff4277c25d62b",
+      "git_blob": "29315587897ce73d53f3bfc27540936d7e62ec99",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/utils.cpp",
+      "bytes": 6352,
+      "lines": 232,
+      "sha256": "f5fb6781bc2d6a657a238ee136fa68b16bfb9ff5e3193ceecf4adbc1079ef2df",
+      "git_blob": "dff5a850ed3c34b5a8d532d5995102a1839b3de8",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/utils.h",
+      "bytes": 1096,
+      "lines": 41,
+      "sha256": "d2d21bf6f9f4bbf1024e6623d2844c56e6d038097daa37ebf4cb71f2641025a8",
+      "git_blob": "25b7ff2a274b74a528f074137e24cb04de85e6e0",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone-file-parser.cpp",
+      "bytes": 20536,
+      "lines": 450,
+      "sha256": "94590b92d34cda680f25b18f62be26b6fe9a7cc2f36d7c0797ff825188ff7340",
+      "git_blob": "e6a672433e4737ac2c8b9af7c9125f5cc6ef4565",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone-graph.cpp",
+      "bytes": 19004,
+      "lines": 462,
+      "sha256": "cb433bca9af220f5f5fc03828725d1dc644a2d3e9b74e67779f5afcec5094913",
+      "git_blob": "9936d814211f096bd1f0abec4b3274b38034872a",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/zone-graph.h",
+      "bytes": 2956,
+      "lines": 84,
+      "sha256": "c64d905cdba174906f4624273ff179aa7a934f619b57e775bc858a3a7618820f",
+      "git_blob": "289f0b11113b368fb701d1ed0dac10b24fbd3381",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "bin/groot.cpp",
+      "bytes": 6378,
+      "lines": 177,
+      "sha256": "c9b50c2bb00d1acc16ff834680f8eb48558e3c2dd60cdefea0062b0f5b4b2631",
+      "git_blob": "11baf0ccead03d1d03cf10a8291de0d77754e74f",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14075,
+      "lines": 378,
+      "sha256": "98a45cdf353130a9f2b8d0a69b9b854a77fd6ca2e1c56e0157059d1765d18e00",
+      "git_blob": "9121b60d4401b59a044812ab1fe09597dcf0d870",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "lines": 22,
+      "sha256": "28a5c3a0938d1b763b48e5c75e69f1e6a7b1212ad7e16af4dffccc738e6a5cca",
+      "git_blob": "f65eef92441d16ab59492881e69b807becd5f303",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 1250,
+      "lines": 40,
+      "sha256": "ecf3f43d9320e21d76dd978e686054342e8d146c64f0ee52d5d82f67007e2f10",
+      "git_blob": "f1b6ab8f5ab5391de43113fa4d5d06187b3681ef",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "src/CMakeLists.txt",
+      "bytes": 646,
+      "lines": 23,
+      "sha256": "dfdcc76cd94a33c3ac4f8510de38f515bc99b4cc7f999f751d72186b72ecea06",
+      "git_blob": "a715e100cdaa637e1ddc799eaee549943f034681",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    },
+    {
+      "path": "setup.sh",
+      "bytes": 1405,
+      "lines": 63,
+      "sha256": "ad158d5aa501f03a41ea05e4bf59bba277680e3a8e8168f73d31a17616c7d37b",
+      "git_blob": "004d4f25c86374b5b15d0966d1054cfe086b4a1e",
+      "fixed_tree_match": true,
+      "read_scope": "ENTIRE_FILE"
+    }
+  ],
+  "full_runtime_cpp_and_h_count": 26,
+  "scope": "Independent bounded BIND-style master parser, normalization, explicit CNAME/DNAME/query paths, delegation/glue diagnostics. Reject include/generate, no online requests. Single asserted zone snapshot per origin. No GRoot equivalence classes/wildcard/closest-encloser/multiple server/all-query verification equivalence.",
+  "reference_specs": [
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc1035",
+      "sections": [
+        "2.3.3-2.3.4",
+        "3.3 selected RR formats",
+        "5.1-5.2"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6672",
+      "sections": [
+        "2.1-2.4",
+        "3.1-3.2"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9471",
+      "sections": [
+        "2.1-2.3",
+        "3.1-3.2"
+      ]
+    },
+    {
+      "url": "https://bind9.readthedocs.io/en/v9.20.13/chapter3.html",
+      "sections": [
+        "selected master-file TTL conventions only"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc2181",
+      "sections": [
+        "5.1-5.2",
+        "6",
+        "10.3"
+      ]
+    }
+  ],
+  "runtime_deleted_capabilities": [
+    "GRoot setup package/network installer is not used",
+    "GRoot log/lint/output/DOT file writes removed",
+    "No thread/EC producer or dynamic plugin/property execution",
+    "No DNS, AXFR, stdin, URL, archive, external included file access"
+  ],
+  "not_reviewed": [
+    "third party concurrentqueue, boost, docopt, nlohmann_json, spdlog implementation",
+    "whole upstream tests, benchmark corpus, workflow, container or Windows project sources"
+  ],
+  "additional_reference_source": {
+    "repo": "isc-projects/bind9",
+    "tag": "v9.20.13",
+    "tag_object": "35e94ca702178cdbad2be2d7777015cb7267900a",
+    "commit": "1f79fb934ee492f73e80cd216cf8494f2d54a7a1",
+    "path": "lib/dns/ttl.c",
+    "read_scope": "ENTIRE_FILE",
+    "bytes": 4725,
+    "lines": 222,
+    "sha256": "35ca66d05e47a5673ded19b10d64c854dd844274bc368a239b0d3d85fc9672bc",
+    "url": "https://raw.githubusercontent.com/isc-projects/bind9/1f79fb934ee492f73e80cd216cf8494f2d54a7a1/lib/dns/ttl.c",
+    "runtime_bundled": false,
+    "source_license": "MPL-2.0 source header, research-only reference"
+  }
+}

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zone-graph-guard"
+version = "0.1.0"
+description = "Bounded offline DNS master-file alias and delegation snapshot review"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE", "licenses/*.txt", "NOTICE"]
+authors = [{name = "bitfish886, with Codex AI assistance"}]
+dependencies = []
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Security"]
+
+[project.scripts]
+zone-graph-guard = "zone_graph_guard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

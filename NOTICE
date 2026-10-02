@@ -1,0 +1,9 @@
+ZoneGraphGuard is new Python code developed for bitfish886 with Codex AI assistance.
+It was informed by review of dns-groot/groot, fixed commit
+c6943a08596c6f308b381dd6a68c3b279cbd2edc, Copyright (c) 2020 dns-groot.
+The complete upstream MIT license is retained in licenses/GRoot-MIT.txt.
+No upstream C++ implementation or third-party runtime is bundled or invoked.
+The original GRoot contributors retain authorship of their original work.
+The portfolio applicant is not represented as the sole author of GRoot.
+Public RFCs and selected ISC BIND documentation/source informed semantics;
+their text and BIND implementation are not incorporated in the runtime package.
