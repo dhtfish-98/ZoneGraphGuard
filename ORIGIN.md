@@ -1,6 +1,6 @@
 # Origin and attribution
 
-The research reference is [dns-groot/groot at c6943a08596c6f308b381dd6a68c3b279cbd2edc](https://github.com/dns-groot/groot/tree/c6943a08596c6f308b381dd6a68c3b279cbd2edc). Original GRoot authorship belongs to its contributors, Copyright (c) 2020 dns-groot. Its complete MIT license is retained unchanged in `licenses/GRoot-MIT.txt` (SHA-256 `28a5c3a0938d1b763b48e5c75e69f1e6a7b1212ad7e16af4dffccc738e6a5cca`). The applicant is not described as the sole author of GRoot.
+The research reference is [dns-groot/groot at c6943a08596c6f308b381dd6a68c3b279cbd2edc](https://github.com/dns-groot/groot/tree/c6943a08596c6f308b381dd6a68c3b279cbd2edc). No GRoot implementation, dependencies or test corpus is redistributed; the unused reference-only MIT license copy was removed. This does not transfer upstream ownership or licensing. The new implementation remains MIT under LICENSE.
 
 ZoneGraphGuard's Python lexer, escaped-octet names, strict manifest, descriptor reader, typed record normalizer, graph model, query properties, privacy report, tests, packaging and documentation are new work; new implementation author and maintainer: dhtfish98. Upstream C++ algorithms and dependencies are not wrapped, invoked or bundled. New code is MIT licensed. This is a deliberately smaller contract than GRoot.
 

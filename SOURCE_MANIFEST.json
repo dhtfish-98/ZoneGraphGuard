@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "ZoneGraphGuard",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "dhtfish98",
   "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
   "files": [
@@ -27,28 +27,28 @@
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "b7a497825c4ba8829f9200146619b3e6e60b7dde4b955a00722c7198e1c8a457",
-      "bytes": 282
+      "sha256": "c3443c2ecf1ed8f664d0c093b8b1f2d1a588f8cd1a7a09ebdb0577eddfb083c5",
+      "bytes": 249
     },
     {
       "path": "NOTICE",
-      "sha256": "4ff8d44d3a074767cd87b4ca7d399982239a21e813d85b1353ec8f451341e9e9",
-      "bytes": 640
+      "sha256": "b73a3cc34cc77742b3c4ddc5ded107ff2aa8bf29e83194b41dbc4b7d27ca91d1",
+      "bytes": 632
     },
     {
       "path": "ORIGIN.md",
-      "sha256": "a015cb557aac391f151003a1f5af2ed059ab50a181d99b27052cc0856d8dbf0b",
-      "bytes": 2770
+      "sha256": "f77aa237031b183b45eb1e98bbe8db7ca8b687ac39b376e234aaf01845fca462",
+      "bytes": 2705
     },
     {
       "path": "README.md",
-      "sha256": "1cdb260d43dfe03b4bea98a4fbcd69cfa7c6a9a98acf0b0b60ec9bec9b9e86b2",
-      "bytes": 6327
+      "sha256": "538cf2c6ba83e4cdd6ce1bc387deae4000debf940121f5f0ad6ce5d4cf233eda",
+      "bytes": 6297
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "19d6612e603ba10a503a43bf3c912000b320b72aa6fedea975ed3f222835e5ab",
-      "bytes": 3657
+      "sha256": "aa607bffab8c6476081e47f2646674a58be5209938c513a6071b7593a3d1f3ff",
+      "bytes": 4996
     },
     {
       "path": "evidence/reviewed-source.json",
@@ -61,14 +61,9 @@
       "bytes": 12061
     },
     {
-      "path": "licenses/GRoot-MIT.txt",
-      "sha256": "28a5c3a0938d1b763b48e5c75e69f1e6a7b1212ad7e16af4dffccc738e6a5cca",
-      "bytes": 1067
-    },
-    {
       "path": "pyproject.toml",
-      "sha256": "96dc0639d9cf5aef5382bbc50b4f2dbaafbad711e1e960fbe1f487345d6ce964",
-      "bytes": 644
+      "sha256": "4ee291ee38d9d26b9a4105cac6cdf510c92a4e3925cf9f7d1bd2814ec0e81772",
+      "bytes": 626
     },
     {
       "path": "requirements-build.txt",
@@ -77,7 +72,7 @@
     },
     {
       "path": "src/zone_graph_guard/__init__.py",
-      "sha256": "1444f9c005ec36cbea6b326f0bde43a85ff659e3d039d6b522c4c0fd966db923",
+      "sha256": "3d45533c04b08a6dfcd2af78715b7e169cc80ddfb801d630132c898da1c552d3",
       "bytes": 208
     },
     {
@@ -87,7 +82,7 @@
     },
     {
       "path": "src/zone_graph_guard/cli.py",
-      "sha256": "de1c23dd34bc790e1db9bf0eda197cfd20ad46f7a44b669a2d7f6c547fc2d5c5",
+      "sha256": "c6608beeb2345567490ce02aa5fa2c2b5b9e5674e16bb1e5dbb0d0300acc8191",
       "bytes": 1236
     },
     {
@@ -145,5 +140,6 @@
       "sha256": "48f12d6e802cbec8bcafe3643b18ced263fb81821316036b540a36dd1eaf58e4",
       "bytes": 31484
     }
-  ]
+  ],
+  "license_cleanup": "Only approved reference-only copies removed; applicable data/code/terms and own LICENSE preserved."
 }

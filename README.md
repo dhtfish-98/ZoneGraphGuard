@@ -5,7 +5,7 @@ ZoneGraphGuard reviews an explicitly supplied set of local DNS zone snapshots fo
 Install the built wheel with Python 3.11 or newer. There are no runtime dependencies.
 
 ```sh
-python -m pip install --no-deps dist/zone_graph_guard-0.1.1-py3-none-any.whl
+python -m pip install --no-deps dist/zone_graph_guard-0.1.2-py3-none-any.whl
 zone-graph-guard manifest.json --root /absolute/authorized/directory
 ```
 
@@ -47,7 +47,7 @@ Reads use anchored directory descriptors and refuse symlinks at every root/file 
 
 Reports omit literal input paths, domain names, addresses, TXT contents and raw exception messages. Numerical positions and stable SHA-256 fingerprints support local correlation. Fingerprints do not promise secrecy against dictionary guessing. No source content is written to stderr by the reviewer.
 
-Authorship, fixed upstream review scope and complete licenses are in [ORIGIN.md](ORIGIN.md), [NOTICE](NOTICE) and [licenses/GRoot-MIT.txt](licenses/GRoot-MIT.txt). New implementation author and maintainer: dhtfish98. This is a defensive portfolio candidate; program eligibility remains OPEN. [VALIDATION.md](VALIDATION.md) distinguishes local tests/packages from remote CI and live deployment evidence.
+Authorship, fixed upstream review scope and complete licenses are in [ORIGIN.md](ORIGIN.md), [NOTICE](NOTICE) and [LICENSE](LICENSE). New implementation author and maintainer: dhtfish98. This is a defensive portfolio candidate; program eligibility remains OPEN. [VALIDATION.md](VALIDATION.md) distinguishes local tests/packages from remote CI and live deployment evidence.
 
 Local file I/O requires the positive integer OS protection flags documented by
 the reader/writer. Missing, zero, None, Boolean or non-integer flags return a

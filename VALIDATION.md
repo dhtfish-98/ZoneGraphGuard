@@ -1,3 +1,15 @@
+## Current version 0.1.2: applicable material notices, 2026-10-03
+
+New implementation author and maintainer: dhtfish98. Package version: `0.1.2`.
+
+This revision removes 1 unused reference-only license/notice copies and reconciles current material provenance and packaging. Actual embedded third-party data, converted vectors, frozen test-oracle source, applicable licenses and the scoped Redis patch/terms remain unchanged where present. The project's own LICENSE is unchanged. Runtime behavior is unchanged; only its version constant advances.
+
+The current source suite passes 69 tests on Python 3.14/macOS arm64. Publication gates also require the same nonzero suite on a fresh wheel consumer and an independent consumer of a wheel rebuilt offline from the source archive. Separate receipts bind actual outcomes, installed origins, runtime/data/license bytes, wheel RECORD, CLI contracts and exact artifact hashes; no self-referential package hash is embedded here.
+
+Historical reference/native/oracle measurements below are retained as prior evidence and are not new measurements for this material-only revision. Current file identities are in SOURCE_MANIFEST.json. Matching remote CI/publication, deployment security, applicant identity and CVP approval require separate evidence and remain OPEN here.
+
+## Prior verification evidence
+
 ## Current version 0.1.1: attribution and bounded verification, 2026-10-03
 
 New implementation author and maintainer: dhtfish98. Package version: `0.1.1`.

@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "zone-graph-guard"
-version = "0.1.1"
+version = "0.1.2"
 description = "Bounded offline DNS master-file alias and delegation snapshot review"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
-license-files = ["LICENSE", "licenses/*.txt", "NOTICE"]
+license-files = ["LICENSE", "NOTICE"]
 authors = [{name = "dhtfish98"}]
 maintainers = [{name = "dhtfish98"}]
 dependencies = []
