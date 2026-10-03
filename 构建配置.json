@@ -1,0 +1,40 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "ZoneGraphGuard",
+  "author": "dhtfish98",
+  "kind": "python",
+  "base_public_commit": "69d211f8413d323f4b1b27def87b4a011144c3c1",
+  "restored_inputs": [
+    {
+      "original": "DEFENSIVE_SCOPE.md",
+      "stored": "项目文档/DEFENSIVE_SCOPE.md",
+      "sha256": "8c709b03c41962fa519b5f0b803ff61cea8801da828ac45694e89386654d6a91"
+    },
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298"
+    },
+    {
+      "original": "NOTICE",
+      "stored": "项目文档/NOTICE",
+      "sha256": "b73a3cc34cc77742b3c4ddc5ded107ff2aa8bf29e83194b41dbc4b7d27ca91d1"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "f77aa237031b183b45eb1e98bbe8db7ca8b687ac39b376e234aaf01845fca462"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "b0694eb94843219bf22139cbe4d0fc33ed6ae89810ef9809cce2d66264d16f46"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "aa607bffab8c6476081e47f2646674a58be5209938c513a6071b7593a3d1f3ff"
+    }
+  ],
+  "platform_entries": []
+}
