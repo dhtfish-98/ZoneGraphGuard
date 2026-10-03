@@ -7,8 +7,8 @@
   "files": [
     {
       "path": ".github/workflows/ci.yml",
-      "sha256": "a13103a5e168a17f7146e5bad6893dc08189902e23656d27b514f665c9aaeed5",
-      "bytes": 2212
+      "sha256": "a51f41cdec23be4151bbaa94cabf9e641c62e63e3c9e09aefeb29104d377970a",
+      "bytes": 2011
     },
     {
       "path": ".gitignore",
@@ -151,11 +151,6 @@
       "bytes": 4996
     },
     {
-      "path": "项目文档/历史/目录更新20261003/SOURCE_MANIFEST.json.layout-a2aa199d02ae.json",
-      "sha256": "6400e06432fc9622c6f4da880592fff16869fe5a75a8432f74b9cfceb93eb27c",
-      "bytes": 6101
-    },
-    {
       "sha256": "d7cc7f1b116b5f6a27102ca9342fff7c03c24e1236520c1c9f908d0e14666170",
       "bytes": 4665,
       "path": "项目文档/历史/目录更新20261003/SOURCE_MANIFEST.json.public-69d211f8413d.json"
@@ -173,12 +168,5 @@
     "original_inventory_sha256": "d7cc7f1b116b5f6a27102ca9342fff7c03c24e1236520c1c9f908d0e14666170",
     "path_view": "Canonical repository paths; the builder also restores byte-identical legacy aliases under ignored Build for existing packaging checks",
     "scope": "Current file inventory and packaging paths only; runtime bytes/version/API unchanged. Historical validation and security conclusions are retained, not rerun or newly certified."
-  },
-  "directory_layout_ci_repair": {
-    "scope": "CI paths/packaging inventory only; no runtime semantic retest",
-    "first_layout_commit": "a2aa199d02aefbdd25c2ec0ff84d12a19ee5cfef",
-    "first_layout_inventory_archive": "项目文档/历史/目录更新20261003/SOURCE_MANIFEST.json.layout-a2aa199d02ae.json",
-    "archive_sha256": "6400e06432fc9622c6f4da880592fff16869fe5a75a8432f74b9cfceb93eb27c",
-    "previous_prepare_sha256": "7602e39fbe2453a2e7ac2350a04026674578b94f3411791544cfed641a9e1f29"
   }
 }
