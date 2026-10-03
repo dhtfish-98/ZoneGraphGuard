@@ -5,7 +5,7 @@ ZoneGraphGuard reviews an explicitly supplied set of local DNS zone snapshots fo
 Install the built wheel with Python 3.11 or newer. There are no runtime dependencies.
 
 ```sh
-python -m pip install --no-deps dist/zone_graph_guard-0.1.0-py3-none-any.whl
+python -m pip install --no-deps dist/zone_graph_guard-0.1.1-py3-none-any.whl
 zone-graph-guard manifest.json --root /absolute/authorized/directory
 ```
 
@@ -47,4 +47,12 @@ Reads use anchored directory descriptors and refuse symlinks at every root/file 
 
 Reports omit literal input paths, domain names, addresses, TXT contents and raw exception messages. Numerical positions and stable SHA-256 fingerprints support local correlation. Fingerprints do not promise secrecy against dictionary guessing. No source content is written to stderr by the reviewer.
 
-Authorship, fixed upstream review scope and complete licenses are in [ORIGIN.md](ORIGIN.md), [NOTICE](NOTICE) and [licenses/GRoot-MIT.txt](licenses/GRoot-MIT.txt). New contributions used Codex AI assistance. This is a defensive portfolio candidate; program eligibility remains OPEN. [VALIDATION.md](VALIDATION.md) distinguishes local tests/packages from remote CI and live deployment evidence.
+Authorship, fixed upstream review scope and complete licenses are in [ORIGIN.md](ORIGIN.md), [NOTICE](NOTICE) and [licenses/GRoot-MIT.txt](licenses/GRoot-MIT.txt). New implementation author and maintainer: dhtfish98. This is a defensive portfolio candidate; program eligibility remains OPEN. [VALIDATION.md](VALIDATION.md) distinguishes local tests/packages from remote CI and live deployment evidence.
+
+Local file I/O requires the positive integer OS protection flags documented by
+the reader/writer. Missing, zero, None, Boolean or non-integer flags return a
+controlled OPEN/error before requested filesystem input/output instead of
+weakening the boundary. Native
+Windows file I/O is not verified; the current verification is macOS POSIX.
+
+Directory descriptor capability contract: `os.supports_dir_fd` must be a set or frozenset containing `os.open` before requested local file access. Missing, malformed or incomplete capability declarations return the existing controlled OPEN/error result. This finite POSIX contract is checked locally; native Windows file operations are not implemented or claimed.

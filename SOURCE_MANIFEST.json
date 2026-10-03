@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "project": "ZoneGraphGuard",
+  "version": "0.1.1",
+  "author": "dhtfish98",
+  "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "f72a8da1f39d35d5a67778b07345296d6e32a2378a62660fdd30adfe7365b0bc",
+      "bytes": 690
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "bb5832ba165615ffd69f59af6f9c5a14e4fee68198cbff929849cba2b3479291",
+      "bytes": 70
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "8c709b03c41962fa519b5f0b803ff61cea8801da828ac45694e89386654d6a91",
+      "bytes": 5292
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298",
+      "bytes": 1066
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "b7a497825c4ba8829f9200146619b3e6e60b7dde4b955a00722c7198e1c8a457",
+      "bytes": 282
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "4ff8d44d3a074767cd87b4ca7d399982239a21e813d85b1353ec8f451341e9e9",
+      "bytes": 640
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "a015cb557aac391f151003a1f5af2ed059ab50a181d99b27052cc0856d8dbf0b",
+      "bytes": 2770
+    },
+    {
+      "path": "README.md",
+      "sha256": "1cdb260d43dfe03b4bea98a4fbcd69cfa7c6a9a98acf0b0b60ec9bec9b9e86b2",
+      "bytes": 6327
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "19d6612e603ba10a503a43bf3c912000b320b72aa6fedea975ed3f222835e5ab",
+      "bytes": 3657
+    },
+    {
+      "path": "evidence/reviewed-source.json",
+      "sha256": "8f6b2f51ea1435767a4d2a25a356737dd39ea515a11afec25c71e67139c34629",
+      "bytes": 6858
+    },
+    {
+      "path": "evidence/scope-gate.json",
+      "sha256": "936dc9a45a5af8d68c0d511f2eaf49b8299933262ee73c7f3d46a20501b89fd2",
+      "bytes": 12061
+    },
+    {
+      "path": "licenses/GRoot-MIT.txt",
+      "sha256": "28a5c3a0938d1b763b48e5c75e69f1e6a7b1212ad7e16af4dffccc738e6a5cca",
+      "bytes": 1067
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "96dc0639d9cf5aef5382bbc50b4f2dbaafbad711e1e960fbe1f487345d6ce964",
+      "bytes": 644
+    },
+    {
+      "path": "requirements-build.txt",
+      "sha256": "206d502f592f43b6cb1a0ec971e5e4e38be6d186550c3958ee3d0fc5632c445b",
+      "bytes": 85
+    },
+    {
+      "path": "src/zone_graph_guard/__init__.py",
+      "sha256": "1444f9c005ec36cbea6b326f0bde43a85ff659e3d039d6b522c4c0fd966db923",
+      "bytes": 208
+    },
+    {
+      "path": "src/zone_graph_guard/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48
+    },
+    {
+      "path": "src/zone_graph_guard/cli.py",
+      "sha256": "de1c23dd34bc790e1db9bf0eda197cfd20ad46f7a44b669a2d7f6c547fc2d5c5",
+      "bytes": 1236
+    },
+    {
+      "path": "src/zone_graph_guard/contracts.py",
+      "sha256": "1ea87a7124e12217f18631195bc3de459d213b847e3d5e94802e5d8d8511e472",
+      "bytes": 3378
+    },
+    {
+      "path": "src/zone_graph_guard/files.py",
+      "sha256": "a6b71a8965098407884d26515198d3026cbf85e86b3dc4294140599e5f77975d",
+      "bytes": 3508
+    },
+    {
+      "path": "src/zone_graph_guard/lexer.py",
+      "sha256": "38cf30a8baaca5f9015f3b0e487ace8d7c723151a1356c1b86e79f0a93479de4",
+      "bytes": 4036
+    },
+    {
+      "path": "src/zone_graph_guard/manifest.py",
+      "sha256": "db06cdc78c4214c10b14590ebfb655f688a89a376b229cf4c7e1ec5debc9a619",
+      "bytes": 3933
+    },
+    {
+      "path": "src/zone_graph_guard/model.py",
+      "sha256": "e69cbf7b8ed02311ade588c559edaf9a72310b6a051601fa491eeb6c86f4394c",
+      "bytes": 16225
+    },
+    {
+      "path": "src/zone_graph_guard/names.py",
+      "sha256": "9b50c7da7213a9f606c0fffb6dd84e55599ee04b224c141fcb0ccb7236223f85",
+      "bytes": 2604
+    },
+    {
+      "path": "src/zone_graph_guard/parser.py",
+      "sha256": "2dd1701ec412573486efab87b00a2e2deadbe9ec8289a4909a086d702a1b2e82",
+      "bytes": 7167
+    },
+    {
+      "path": "src/zone_graph_guard/review.py",
+      "sha256": "b7194598a98c15d33c20240e7d2156bd559b43b6110ef95486a8481d1e9b7ea4",
+      "bytes": 2183
+    },
+    {
+      "path": "tests/test_capabilities.py",
+      "sha256": "186b0d08c32f0e2f2651ca2cd97a78d4f2b2b6308fe12444d86c18e27cbc8046",
+      "bytes": 2021
+    },
+    {
+      "path": "tests/test_dirfd_capabilities.py",
+      "sha256": "1ee750a6d33c4ecba19b6737626646ee90a722d4538c5887433e3aff990000e9",
+      "bytes": 4656
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "48f12d6e802cbec8bcafe3643b18ced263fb81821316036b540a36dd1eaf58e4",
+      "bytes": 31484
+    }
+  ]
+}

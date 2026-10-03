@@ -25,7 +25,11 @@ class Reader:
         self.count = 0
         self.fd = None
         required = ("O_NOFOLLOW", "O_DIRECTORY", "O_NONBLOCK")
-        if any(not hasattr(os, flag) for flag in required):
+        if any(type(getattr(os, flag, None)) is not int or getattr(os, flag, 0) <= 0
+               for flag in required):
+            raise Gap("safe_descriptor_reads_unavailable")
+        if (type(getattr(os, "supports_dir_fd", None)) not in (set, frozenset)
+                or os.open not in os.supports_dir_fd):
             raise Gap("safe_descriptor_reads_unavailable")
         parts = _parts(root, absolute=True)
         flags = os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW

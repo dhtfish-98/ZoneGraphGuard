@@ -1,4 +1,4 @@
-ZoneGraphGuard is new Python code developed for bitfish886 with Codex AI assistance.
+ZoneGraphGuard is new Python implementation by dhtfish98.
 It was informed by review of dns-groot/groot, fixed commit
 c6943a08596c6f308b381dd6a68c3b279cbd2edc, Copyright (c) 2020 dns-groot.
 The complete upstream MIT license is retained in licenses/GRoot-MIT.txt.
