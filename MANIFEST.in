@@ -1,6 +1,6 @@
 include 项目文档/README.md 项目文档/ORIGIN.md 项目文档/DEFENSIVE_SCOPE.md 项目文档/VALIDATION.md 项目文档/LICENSE 项目文档/NOTICE pyproject.toml requirements-build.txt
 recursive-include tests *.py
-recursive-include evidence *.json
+recursive-include 项目文档/evidence *.json
 recursive-include .github/workflows *.yml
 
 include SOURCE_MANIFEST.json
