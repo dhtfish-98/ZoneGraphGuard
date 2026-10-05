@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "ZoneGraphGuard",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "dhtfish98",
   "scope": "Current selected implementation and repository files; self manifest excluded to avoid a hash cycle. Upstream source commits remain in ORIGIN/source review records.",
   "files": [
@@ -32,7 +32,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "efd29d4d56fd4589e4e66115ebdb8bb754110185d501c7bbedf98f62c8f57bfc",
+      "sha256": "090e325f5cc0b884c6d5ea41c188d93bdfaaa9a881198a5ab8c38f5a49e30269",
       "bytes": 665
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "path": "src/zone_graph_guard/__init__.py",
-      "sha256": "3d45533c04b08a6dfcd2af78715b7e169cc80ddfb801d630132c898da1c552d3",
+      "sha256": "5edd961da57c7d78250e591bb26c9c5c575fb1cbba1c668607bd6009edaae468",
       "bytes": 208
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "path": "src/zone_graph_guard/cli.py",
-      "sha256": "c6608beeb2345567490ce02aa5fa2c2b5b9e5674e16bb1e5dbb0d0300acc8191",
+      "sha256": "94505b89cbd207352295e77372cf3d143516801f95854621aa54794da15b4900",
       "bytes": 1236
     },
     {
@@ -116,7 +116,7 @@
       "path": "构建.py"
     },
     {
-      "sha256": "c11612972defef02750b7e121ecbe7c6766600040956e25e01d2d8947de50e63",
+      "sha256": "ff9c222c6e14d362e3f2cf25cc0955cba363835f281d54940cfb7a0fbd3f6ed7",
       "bytes": 1269,
       "path": "构建配置.json"
     },
@@ -142,13 +142,13 @@
     },
     {
       "path": "项目文档/README.md",
-      "sha256": "b0694eb94843219bf22139cbe4d0fc33ed6ae89810ef9809cce2d66264d16f46",
+      "sha256": "7490cc9c2bfecfb6c998b87fa0636592f0d463cc9a58c449b9e9ba8281d9b0e3",
       "bytes": 6662
     },
     {
       "path": "项目文档/VALIDATION.md",
-      "sha256": "aa607bffab8c6476081e47f2646674a58be5209938c513a6071b7593a3d1f3ff",
-      "bytes": 4996
+      "sha256": "b214de7b6f12b85b656aace4b5e7a21cfe98e72a9f4e9a857fb49b06b5fc4c8d",
+      "bytes": 5128
     },
     {
       "path": "项目文档/历史/目录更新20261003/SOURCE_MANIFEST.json.layout-a2aa199d02ae.json",

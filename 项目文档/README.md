@@ -7,7 +7,7 @@ ZoneGraphGuard reviews an explicitly supplied set of local DNS zone snapshots fo
 Install the built wheel with Python 3.11 or newer. There are no runtime dependencies.
 
 ```sh
-python -m pip install --no-deps dist/zone_graph_guard-0.1.2-py3-none-any.whl
+python -m pip install --no-deps dist/zone_graph_guard-0.1.3-py3-none-any.whl
 zone-graph-guard manifest.json --root /absolute/authorized/directory
 ```
 

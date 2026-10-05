@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "zone-graph-guard"
-version = "0.1.2"
+version = "0.1.3"
 description = "Bounded offline DNS master-file alias and delegation snapshot review"
 readme = "项目文档/README.md"
 requires-python = ">=3.11"

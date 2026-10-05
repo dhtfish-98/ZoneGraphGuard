@@ -1,3 +1,5 @@
+> Historical validation for v0.1.2. Current release v0.1.3 is validated separately by its exact-commit CI and published artifacts.
+
 ## Current version 0.1.2: applicable material notices, 2026-10-03
 
 New implementation author and maintainer: dhtfish98. Package version: `0.1.2`.
